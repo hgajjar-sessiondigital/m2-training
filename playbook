@@ -1,0 +1,5 @@
+- hosts: all
+  gather_facts: false
+  tasks:
+    - name: "Print out clouds variable"
+      debug: msg="hi"
